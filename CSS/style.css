@@ -1,3 +1,13 @@
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  
+  
+  /* HEADER */
+
+
+
 .navigation-menu {
     max-width: 1140px;
     margin: auto;
@@ -62,6 +72,13 @@
 }
 
 
+
+
+
+
+    /* HEADLINE */
+
+
 h2 {
     display: block;
     font-size: 48px;
@@ -69,6 +86,7 @@ h2 {
     color: transparent #515151;
     text-align: center;
     margin-top: 65px;
+    margin-bottom: 92px;
 }
 
 
@@ -87,6 +105,8 @@ h2:hover::after {
 
 
 
+
+       /* MAIN */
 
 
 
@@ -142,6 +162,73 @@ span {
 
 
 .featured-list {
-    width: 1112px;
+    max-width: 1112px;
     margin: auto;
 }
+
+
+
+   /* LAREAS NEWS */
+
+
+
+   .latest-news {
+    max-width: 1112px;
+    margin: auto;
+    }
+
+
+   .list-item2 {
+       max-width: 350px;
+       list-style: none;
+   }
+
+
+   .headline3 {
+       display: block;
+       color: #555252;
+       font-size: 18px;
+       font-family: 'Open Sans', sans-serif;
+       font-weight: bold;
+       margin-top: 14px;
+   }
+
+
+   .headline3::after {
+       display: block;
+       content: '';
+       width: 136px;
+       height: 3px;
+       background-color: #1abc9c;
+       margin-top: 13px;
+   }
+
+
+   .list-item2 p {
+       font-size: 14px;
+       font-family: 'Open Sans', sans-serif;
+       font-weight: normal;
+       color: 555252;
+       margin-top: 28px;
+   }
+
+
+   .list-item2 button {
+       font-family: 'Open Sans', sans-serif;
+       font-size: 16px;
+       font-weight: normal;
+       margin-top: 17px;
+       width: 160px;
+       height: 50px;
+       color: #ffffff;
+       background-color: #4ec6ab;
+       border: 0;
+       border-radius: 2px;
+       margin-bottom: 80px;
+   }
+
+
+   .list-item2{
+       float: left;
+       margin-right: 5px;
+   }
