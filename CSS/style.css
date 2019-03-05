@@ -11,8 +11,8 @@ img {
 .text {
     display: inline-block;
     width: 255px;
-    height: 40px;
-    margin-left: 10px;
+    /* height: 40px; */
+    /* padding: 10px; */
     color: #ffffff;
     margin-top: 10px;
     font-family: 'Roboto', sans-serif;
@@ -20,16 +20,16 @@ img {
     font-size: 18px;
 }
 
-.link {
+.container {
     background:linear-gradient(to right,
     #323232 0%, #323232 78%,
     #8c8c8c 78%, #8c8c8c 100%);
-    width: 255px;
-    height: 324px;
+    max-width: 255px;
+    max-height: 324px;
 }
 
 
-.link:hover {
+.container:hover {
     background:linear-gradient(to right,
     #1abc9c 0%, #1abc9c 78%,
     #7fd9c7 78%, #7fd9c7 100%);
@@ -38,5 +38,5 @@ img {
 
 span {
     float: right;
-    margin-right: 23px;
+    /* margin-right: 23px; */
 }
