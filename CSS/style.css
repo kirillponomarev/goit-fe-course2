@@ -9,7 +9,7 @@
 
 
 .navigation-menu {
-    max-width: 1140px;
+    max-width: 1112px;
     margin: auto;
     padding: 25px 0;
 }
@@ -69,6 +69,7 @@
 
 .spisok {
     float: right;
+    padding: 12px 0;
 }
 
 
@@ -83,7 +84,7 @@ h2 {
     display: block;
     font-size: 48px;
     font-family: 'Roboto', sans-serif;
-    color: transparent #515151;
+    color: #515151;
     text-align: center;
     margin-top: 65px;
     margin-bottom: 92px;
@@ -109,25 +110,20 @@ h2:hover::after {
        /* MAIN */
 
 
-
-
-.box1 {
-    box-sizing: border-box;
-}
-
-
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 
 .text {
     display: inline-block;
     width: 255px;
-    /* height: 40px; */
-    /* padding: 10px; */
+    box-sizing: border-box;
+    padding: 10px;
     color: #ffffff;
-    margin-top: 10px;
+    margin-top: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 18px;
@@ -151,13 +147,19 @@ img {
 
 span {
     float: right;
-    /* margin-right: 23px; */
+    padding: 0 3px;
 }
 
 
 .container {
     float: left;
-    margin-right: 20px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+
+.container:nth-of-type(4n+4) {
+    margin-right: 0;
 }
 
 
@@ -208,7 +210,7 @@ span {
        font-size: 14px;
        font-family: 'Open Sans', sans-serif;
        font-weight: normal;
-       color: 555252;
+       color: #555252;
        margin-top: 28px;
    }
 
@@ -230,5 +232,9 @@ span {
 
    .list-item2{
        float: left;
-       margin-right: 5px;
+   }
+
+
+   .list-item2:not(:last-child) {
+       margin-right: 30px;
    }
