@@ -91,7 +91,7 @@ h2 {
 }
 
 
-h2:hover::after {
+h2::after {
     display: block;
     margin: auto;
     margin-top: 30px;
