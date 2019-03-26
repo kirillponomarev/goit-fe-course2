@@ -1,0 +1,78 @@
+@media (max-width: 599px) {
+    .navigation-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .logo {
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .spisok {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list-item {
+        margin-bottom: 15px;
+    }
+
+    .list-item > a {
+        font-size: 20px;
+    }
+
+    h2 {
+        outline: 1px solid #000;
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .featured-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 92px;
+    }
+
+    .container {
+        margin-bottom: 20px;
+    }
+
+    .latest-news {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .latest-news > ul {
+        max-width: 320px;
+    }
+
+    .list-item2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headline3 {
+        text-align: center;
+        
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .headline3::after {
+        margin: auto;
+        margin-top: 13px;
+    }
+}

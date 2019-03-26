@@ -23,12 +23,10 @@
 
 
 .logo {
-    display: inline-block;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: #555252;
-    margin-top: 5px;
 }
 
 
@@ -56,13 +54,7 @@
     color: #1abc9c;
 }
 
-
-.list-item:not(:last-child)  {
-    margin-right: 34px;
-}
-
-
-.list-item {
+/* .list-item {
     float: left;
 }
 
@@ -70,7 +62,7 @@
 .spisok {
     float: right;
     padding: 12px 0;
-}
+} */
 
 
 
@@ -86,7 +78,6 @@ h2 {
     font-family: 'Roboto', sans-serif;
     color: #515151;
     text-align: center;
-    margin-top: 65px;
     margin-bottom: 92px;
 }
 
@@ -151,7 +142,7 @@ span {
 }
 
 
-.container {
+/* .container {
     float: left;
     margin-right: 30px;
     margin-bottom: 30px;
@@ -160,7 +151,7 @@ span {
 
 .container:nth-of-type(4n+4) {
     margin-right: 0;
-}
+} */
 
 
 .featured-list {
@@ -176,7 +167,7 @@ span {
 
    .latest-news {
     max-width: 1112px;
-    margin: auto;
+    /* margin: auto; */
     }
 
 
@@ -227,14 +218,4 @@ span {
        border: 0;
        border-radius: 2px;
        margin-bottom: 80px;
-   }
-
-
-   .list-item2{
-       float: left;
-   }
-
-
-   .list-item2:not(:last-child) {
-       margin-right: 30px;
    }
