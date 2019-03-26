@@ -172,7 +172,7 @@ span {
 
 
    .list-item2 {
-       max-width: 350px;
+       /* max-width: 350px; */
        list-style: none;
    }
 
