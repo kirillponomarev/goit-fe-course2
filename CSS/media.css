@@ -3,7 +3,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        
     }
 
     .logo {
@@ -30,7 +29,7 @@
     }
 
     h2 {
-        outline: 1px solid #000;
+        /* outline: 1px solid #000; */
         width: 100%;
         font-size: 40px;
     }
@@ -74,5 +73,25 @@
     .headline3::after {
         margin: auto;
         margin-top: 13px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .navigation-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .spisok {
+        display: flex;
+        justify-content: space-between;
+        min-width: 340px;
     }
 }
