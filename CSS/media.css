@@ -153,8 +153,9 @@
 
 @media (min-width: 1024px) {
     .navigation-menu {
+        max-width: 960px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .logo {
@@ -164,16 +165,33 @@
 
     .spisok {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 50%;
+        justify-content: space-between;
     }
 
-    .list-item {
-        margin-bottom: 15px;
+    .featured-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
-    .list-item > a {
-        font-size: 16px;
+    .container {
+        margin-bottom: 20px;
+    }
+
+    .latest-news {
+        max-width: 960px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .latest-news ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .list-item2 {
+        width: 30%;
     }
 }
